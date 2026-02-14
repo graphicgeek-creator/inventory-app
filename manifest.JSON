@@ -1,0 +1,59 @@
+{
+  "name": "Inventory & Sales Tracker",
+  "short_name": "Inventory",
+  "description": "Offline-first iPad inventory and sales tracker with tax-exempt sales and printable reports.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#000000",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "icons/ud-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/ud-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/ud-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "url": "#tab-dashboard"
+    },
+    {
+      "name": "Inventory",
+      "short_name": "Inventory",
+      "url": "#tab-inventory"
+    },
+    {
+      "name": "Sales",
+      "short_name": "Sales",
+      "url": "#tab-sales"
+    },
+    {
+      "name": "Reports",
+      "short_name": "Reports",
+      "url": "#tab-reports"
+    }
+  ],
+  "categories": [
+    "business",
+    "productivity"
+  ],
+  "prefer_related_applications": false
+}
